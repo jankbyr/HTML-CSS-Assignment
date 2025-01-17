@@ -1,0 +1,1170 @@
+* {
+        margin:0;
+       
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    overflow-x: hidden;
+    
+}
+
+/* Footer Items*/
+
+footer {
+    background-color: #051c36;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-icn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.footer-icn a {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer-icn a i{
+    font-size: 1.5rem;
+    color: #051c36;
+}
+
+.footer-icn a:hover {
+    background-color: #051c36;
+    transition: 0.4s;
+}
+
+.footer-icn a:hover i {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.footernav {
+    margin: 20px;
+
+}
+
+.footernav ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    transition: 0.4s;
+
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.navbar {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #051c36;
+}
+
+.checkbox a.icn {
+    float: right ;
+    justify-self: center;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.checkbox .search {
+    float: right;
+    padding-right: 90px;
+    
+}
+
+.checkbox input[type=text] {
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    border: none;
+  }
+
+.checkbox .search button {
+    float: right;
+    margin-top: 15px;
+    color: #fff;
+    background:#1B2B3D;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.logobannerhome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 255px;
+    width: 100%; 
+    justify-items: center;
+}
+
+.logohome {
+    grid-column: 2;
+    grid-row: 3/5;
+}
+
+.logobannerhome-image {
+    max-height: auto;
+    max-width: 250px;
+}
+
+.logobanner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background: url(images/430.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 6px 0;
+}
+
+.logo {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.logobanner-image {
+   
+    max-width: 150px;
+} 
+
+.lowerbanner-home {
+    display: grid;
+    grid-template-columns: minmax(352px, 1fr);
+    grid-template-rows: repeat(2, 1fr) minmax(75px, 1fr);    
+}
+
+#CDdisc {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #585858;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 255px );
+    gap: 20px;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+
+
+.card {
+    justify-self: center;
+    box-shadow: 10px 10px 30px;
+    align-content: center;
+    border: 4px solid #051c36;
+    box-sizing: border-box;
+    width: 265px;
+    height: 360px;
+    color: #000000;
+    text-align: center;   
+}
+
+
+.card img {
+    
+    max-width: 176px;
+    height: 252px;
+    padding: 45px 0px 15px 0;
+} 
+
+.name {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+    
+.card img:hover {
+    cursor: pointer;
+    opacity: 0.75;
+    transition: 0.65s;
+}
+
+.title {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 95px 0px 5px 0px;  
+}
+
+.lowerbanner {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+
+.platform {
+    grid-column: 1;
+    grid-row: 2/3;
+    border: 5px double #051c36;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.platform a {
+    color: #051c36;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 0px 0px 20px ;
+
+}
+
+.platform a:hover {
+    color: #ffffff ;
+    background-color:#051c36; 
+}
+  
+.explore {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#explorebtn:link, #explorebtn:visited {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 40px;
+    padding: 30px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    border: 5px solid #051c36;
+}
+
+#explorebtn:hover, #explorebtn:active {
+    background-color: #051c36;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form__input{
+    display: block;
+}
+
+.checkbox, #menu{
+    display: none;
+    background-color: #051c36;
+    
+}
+
+#menu:checked ~ .checkbox {
+    display: block;
+    
+}
+
+.checkbox a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox a:hover:not(.active) {
+    background-color: #1B2B3D;
+  }
+
+.active{
+    background-color: #0077ff;
+    border-radius: 13px;
+}
+
+.active-platform{
+    background-color: #051c36;
+    border-radius: 13px;
+}
+
+.platform a:active{
+    color: #fff;
+}
+
+.form, .gamehubsupport {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.forms {
+    background-color: #f5f5f5;
+    font-size: 15px;
+}
+
+label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+}
+
+#message {
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.support {
+    grid-row: 1;
+}
+
+.contactinfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+
+#gamesupport {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+   
+}
+
+#contactus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 25px 0 0 0;
+}
+
+#adress {
+    white-space: pre-line;
+}
+
+#sendinn { 
+    background-color: #051c36;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    max-width: 205px;
+    min-width: 204px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#chosesubject {
+    padding: 15px 0 7px 0;
+}
+
+#sendinn:hover {
+    background-color:#0e427c
+  }
+
+#contactform {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutinfo {
+    display: grid;
+    grid-template-columns: minmax(min-content, 600px);
+    grid-template-rows: repeat(3, auto-fill);
+    gap: 15px;
+    padding: 50px 20px 50px 20px;
+    justify-content: center;
+
+}
+
+.aboutinfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.aboutus {
+    grid-column: 1;
+    align-content: center;
+    justify-items: center;
+}
+
+#aboutus {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#xboxgames {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: center;
+    padding: 25px;
+}
+
+/* Checkout Page */
+
+.checkoutpage {
+    background-color: #f0f7ff;
+    display: grid;
+    grid-template-columns: minmax(100px, 500px);
+    grid-template-rows: repeat(9, auto-fill);
+    justify-content: center;
+    align-items: left;
+    padding: 0 20px 0 20px;
+}
+
+.checkoutform {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#checkouth1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 30px 0 0 0;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bi {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#bi {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0 10px 0;
+    float: left;
+
+}
+
+.creditcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.creditcard img {
+    width: 80px;
+}
+
+.creditcard-imagebox {
+    display: grid;
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    width: 120px;
+    height: 75px;
+    justify-content: center;
+    align-content: center;
+}
+
+.creditcard-imagebox:hover {
+    background-color: #0408fe1e;
+    border: 2px solid #0004FF;
+}
+
+.billinginformation, .paymentform, .youarebuying-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px 20px 40px 20px;
+    box-shadow: 10px 10px 25px;
+    margin: 0 0 60px 0;
+    
+}
+
+.paymentform{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.youarebuying-container {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.billing_label{
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 700;
+    
+}
+
+.billing_input {
+    width: 100%;
+    height: 35px;
+    background-color: #f0f7ff;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+.payment {
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 15px 0;
+}
+
+.checkout {
+    justify-items: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.payment_label {
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+.payment_input {
+    background-color: #f0f7ff;
+    width: auto;
+    font-size: 17px;
+    height: 30px;
+    border-radius: 9px;
+}
+
+.billing_input:focus, .payment_input:focus {
+    background-color: #0004ff41;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+}
+
+.split input {
+    width: 100%;
+}
+
+.payusing {
+    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.payusing p {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.payusing .line {
+    display: inline-block;
+    width: 100%;
+    height: 0.%;
+    margin: auto;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.paymentoption-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.paymentoption button {
+    background-color: transparent;
+    border: none;
+}
+
+.paymentoption img {
+    width: 70px;
+}
+
+
+.yabimg-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.yabimg-container img {
+    width: 125px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buyingtext {
+    flex: 1;
+}
+
+.promoapplytotal {
+    display: grid;
+}
+
+.promocode input{
+   width: auto;
+   height: 25px;
+   border-radius: 10px;
+ }
+
+#total {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#cost {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#cost, #total {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.buying {
+    grid-column: 1;
+    grid-row: 6;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 15px 0;
+}
+
+#apply {
+    background-color: #051c36;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 30px;
+}
+
+#checkout {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid #051c36;
+    background-color: #ffffff;
+    color: #051c36;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#checkout:hover {
+    background-color: #051c36;
+    color: #ffffff;
+    
+}
+
+
+/* Add To Cart */
+
+.addtocart-container {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.addtocartimg-container {
+    justify-items: center;
+    align-items: center;
+}
+
+.addtocartimg-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.addtocarttext-container {
+    padding: 30px 0 0 0;
+}
+
+#addtocart-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#addtocart-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 0 0 0;
+}
+
+#addtocart {
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #051c36;
+    color: #ffff;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.addtocart-price {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    justify-self: right;
+}
+
+@media only screen and (min-width: 360px) {
+    
+    .platform a {
+        color:#1B2B3D;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 5px 0px 0px 5px ;
+    }
+
+    #explorebtn:link, #explorebtn:visited {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 30px;
+        padding: 20px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        display: inline-block;
+        border: 5px solid #051c36;
+    }
+
+    #explorebtn:hover, #explorebtn:active {
+        background-color: #051c36;
+        color: #fff;
+    }
+
+    .footernav ul li a {
+        font-size: 12px;
+    }
+     
+}
+
+
+@media only screen and (min-width: 431px) {
+    .checkbox {
+        display: block;
+        position: static;
+        margin: 15px;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .checkbox a {
+        display: inline-block;
+    }
+
+    .logobannerhome-image {
+        max-height: auto;
+        max-width: 350px;
+    }
+
+    .logobannerhome{
+        height: 350px;
+    }
+
+    .logobanner{
+        max-width: auto;
+        height: 100%;
+    }
+
+    .logobanner-image {
+        max-height: auto;
+        max-width: 200px;
+    } 
+    
+    .lowerbanner-home {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+
+    .platform {
+        height: 60px;
+        grid-column: 1/4;
+        grid-row: 3/4;
+        border: 5px double #1B2B3D;
+        text-align: center;
+        align-content: center;
+    }
+
+    .platform a {
+        color:#1B2B3D;
+        font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 20px 2px 2px 20px ;
+    
+    }
+
+    #CDdisc {
+        grid-column: 1/4;
+        grid-row: 4;
+        color: #585858;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
+        border: 2px solid black;
+        padding: 5px;
+    }
+
+    .title{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 95px 0px 25px 0px;  
+    }
+
+    .footernav ul li a {
+        font-size: 14px;
+    }
+
+    .creditcard-imagebox {
+        width: 150px;
+        height: 75px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 560px) {
+
+    .paymentoption img {
+        width: 100px;
+    }
+
+    .creditcard img {
+        width: 80px;
+    }
+    
+    .creditcard-imagebox {
+        width: 205px;
+        height: 75px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 692px) {
+
+    .logobanner {
+        background: url(images/972.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 300px;
+        }
+
+    .logobanner-image {
+        max-height: auto;
+        max-width: 200px;
+    } 
+
+    #CDdisc {
+        grid-column: 2;
+        grid-row: 4;
+        
+    }
+
+    .platform a {
+        font-size: 2rem;
+    }
+     
+    .footernav ul li a {
+        font-size: 18px;
+    }
+
+    #addtocart-h1{
+        font-size: 32px;
+    }
+
+    #addtocart-p {
+        font-size: 18px;
+    }
+    
+    .addtocart-price {
+        font-size: 28px;
+    }
+
+    #addtocart {
+        font-size: 30px;
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+
+    .logobanner {
+        height: 300px;
+    }
+
+    .logobanner-image {
+        max-height: auto;
+        max-width: 300px;
+    } 
+
+    .logo {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    .gamehubsupport{
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-template-columns: minmax(min-content);
+        gap: 25px 120px;
+    }
+
+    .gamesupport {
+        grid-column: 2/4;
+        justify-items: center;
+    }
+
+   
+    .contactinfo{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .forms {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    #gamesupport {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    #contactus {
+        font-size: 28px;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+    }
+
+    .aboutinfo {
+        display: grid;
+        grid-template-columns: 100px 600px 100px;
+        grid-template-rows: repeat(6, auto);
+        gap: 15px;
+        padding: 43px 35px 44px 35px;
+        justify-content: center;
+    }
+
+    .aboutus {
+        grid-column: 2;
+    }
+
+    .aboutinfo p {
+        font-size: 18px;
+    }
+
+    #aboutus {
+        font-size: 40px;
+    }
+
+   #about1 {
+        grid-column: 2;
+        grid-row: 2;
+   }
+
+   #about2 {
+    grid-column: 2;
+    grid-row: 3;
+    }
+
+    #about3 {
+    grid-column: 2;
+    grid-row: 4;
+    }
+   
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 331px );
+        gap: 20px;
+        justify-content: center;
+        padding: 0 0 70px 0;
+    }
+
+    .addtocart-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto-fill);
+    }
+
+    .addtocartimg-container {
+        grid-column: 2;
+    }
+
+   .addtocart-pricecontainer {
+        align-self: start;
+        grid-row: 2;
+        grid-column: 3;
+   }
+
+   .addtocart-pricecontainer a {
+        font-size: 100px;
+   }
+   
+}
+
+
+
+@media only screen and (min-width: 1364px) {
+
+    .logobanner {
+    background: url(images/33.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    }
+
+    .checkoutpage {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, auto-fill);
+        gap: 0 20px;
+        padding: 100px;
+    }
+    
+    .checkoutform {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #bi {
+       font-size: 28px;
+    }
+
+    .paymentform {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .youarebuying-container {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    #checkouth1 {
+        font-size: 44px;
+    }
+    
+    .checkout { 
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+
+    .payment {
+        grid-column: 2;
+        grid-row: 2;
+        margin: 40px 0 10px 0;
+        font-size: 28px;
+    }
+
+    .buying {
+        grid-column: 3;
+        grid-row: 2;
+        margin: 40px 0 10px 0;
+        font-size: 28px;
+    }
+
+   
+}
+    
+
+   
+
+
+  

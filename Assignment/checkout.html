@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/22921fbb63.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="navbar">    
+            <input type="checkbox" id="menu">
+            <label for="menu" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <nav class="checkbox">                    
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a class="active" href="contact.html">Contact us</a>
+                <a href="checkout.html" class="icn"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="icn"><i class="fas fa-user-circle"></i></a>
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </section> 
+        <section class="logobanner">
+            <div class="logo">
+                <a target="index.html" href="index.html">
+                    <img src="./images/GameHub_Logo.png" alt="Game Hub Logo" class="logobanner-image">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="checkoutpage">
+            <div class="checkout">
+                <h1 id="checkouth1">Checkout</h1>
+            </div>
+            <div class="bi">
+                <p id="bi">Billing Information</p>
+            </div>
+            <form class="checkoutform">
+                <div class="billinginformation">
+                    <label for="info_field" class="billing_label">Enter your name</label>
+                    <input type="text" id="info_field" name="yname" class="billing_input" placeholder="Enter Your Name.." required>
+                    <label for="info_field" class="billing_label">Enter your email</label>
+                    <input type="email" id="info_field" name="mail" class="billing_input" placeholder="Enter Your Email.." required>
+                    <label for="info_field" class="billing_label">Contry</label>
+                    <select id="info_field" name="country" class="billing_input">
+                        <option value="norway">Norway</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="danmark">Danmark</option>
+                        <option value="uk">UK</option>
+                        <option value="finland">Finland</option>
+                        <option value="polan">Polan</option>
+                    </select>
+                    <label for="info_field" class="billing_label">Enter your adress</label>
+                    <input type="text" id="info_field" name="adress" class="billing_input" placeholder="Enter your adress.." required>
+                </div>
+            </form>
+            <div class="payment">
+                <p id="#payment-p">Payment Methhood</p>
+            </div>
+            <form class="paymentform">
+                <div class="creditcard">
+                    <div class="creditcard-imagebox">
+                        <img src="images/Icons/visa.png">
+                    </div>
+                    <div class="creditcard-imagebox">
+                        <img  src="images/Icons/card.png">
+                    </div>
+                </div>
+                <div class="payment">
+                    <label for="info_field" class="payment_label">Card holder full name</label>
+                    <input type="text" id="info_field" name="cardholder" class="payment_input" placeholder="Card holder full name" required>
+                    <label for="info_field" class="payment_label">Card Number</label>
+                    <input type="number" id="info_field" name="cardnumber" class="payment_input" placeholder="0000 0000 0000" required>
+                    <label for="expiry" class="payment_label">Expiry Date / CVV</label>
+                    <div class="split">
+                        <input type="date" id="expiry" name="expirydate" class="payment_input">
+                        <input type="text" id="expiry" name="cvv" maxlength="3" class="payment_input" placeholder="CVV" required>
+                    </div>
+                </div>
+                
+                <div class="payusing">
+                    <hr class="line">
+                    <p>or pay using</p>
+                    <hr class="line">
+                </div>
+                <section class="paymentoption-container">
+                    <div class="paymentoption">
+                        <button name="paypal" type="button">
+                            <img class="paymentimgs" src="/images/Icons/paypal (1).png" alt="Payment option paypal">
+                        </button>
+                    </div>
+                    <div class="paymentoption">
+                        <button name="googlepay" type="button">
+                            <img class="paymentimgs" src="/images/Icons/google-pay.png" alt="Payment option googlepay">
+                        </button>
+                    </div>
+                    <div class="paymentoption">
+                        <button name="skrill" type="button">
+                            <img class="paymentimgs" src="/images/Icons/skrill.png" alt="Payment option skrill">
+                        </button>
+                    </div>
+                </section>     
+            </form>
+            <div class="buying">
+                <p id="buying-p">You Are buying</p>
+            </div>
+            <section class="youarebuying-container">
+                <div class="yabimg-container">
+                    <div class="buyingimage">
+                        <img src="/images/pc/15.jpg">
+                    </div>
+                    <div class="buyingtext">
+                        <p>Diablo 3 - PC Game Steam Key - Global</p>
+                    </div>
+                </div>
+            <div class="promoapplytotal">
+                <form class="promocode">
+                    <input type="text" id="promocode" name="promocode" placeholder="Promo code">
+                </form>
+                <a href="#" id="apply">Apply</a>
+                <p id="total">Total:</p>
+                <p id="cost">29.90</p>
+            </div>
+            <input id="checkout" type="submit" value="Submit Order">
+            </section>
+            
+        </section>
+    </main>
+    <footer>
+        <nav class="footer-container">
+            <div class="footer-icn">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="tearm.html">Tearm Of Service</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    
+</body>
+</html>

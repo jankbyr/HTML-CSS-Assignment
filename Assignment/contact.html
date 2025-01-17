@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/22921fbb63.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="navbar">    
+            <input type="checkbox" id="menu">
+            <label for="menu" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <nav class="checkbox">                    
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a class="active" href="contact.html">Contact us</a>
+                <a href="checkout.html" class="icn"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="icn"><i class="fas fa-user-circle"></i></a>
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </section> 
+        <section class="logobanner">
+            <div class="logo">
+                <a target="index.html" href="index.html">
+                    <img src="./images/GameHub_Logo.png" alt="Game Hub Logo" class="logobanner-image">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="gamehubsupport">
+            <div class="gamesupport">
+                <h1 id="gamesupport">Game Hub Support</h1>
+            </div>
+            <div class="contactinfo">
+                <h2 id="contactus">Contact us on:</h2>
+                <p>Email: support@gamehub.support.com</p>
+                <p>Phone: 618-686-1489</p>
+                <p>Adress: 4592 Collage View, Bible Grove</p>
+                <p>Instagram: @gamehub</p>
+                <p>Twitter: @gamehub</p>
+                <p>Twitch: twitch.tv/gamehub</p>
+                <p>Facebook: /gamehub</p>
+            </div>
+            <fieldset class="forms">
+                <legend id="contactform">Contact Form</legend>
+                <label for="name">First Name</label>
+                <input type="text" name="firstname" id="name" class="form__input" required>
+                <label for="name">Last Name</label>
+                <input type="text" name="lastname" id="name" class="form__input" required>
+                <label for="email">Email adress</label>
+                <input type="email" name="email" id="email" class="form__input" required>
+                <p id="chosesubject">Chose a Subject</p>
+                <select class="">
+                    <option>Games</option>
+                    <option>Game Key</option>
+                    <option>Payment</option>
+                    <option>Other</option>
+                </select>
+                <p id="chosesubject">Explain what you need help with</p>
+                <textarea id="message" name="message" ></textarea>
+                <input id="sendinn" type="submit" value="Send Inn">
+            </fieldset> 
+        </section>  
+    </main>
+    <footer>
+        <nav class="footer-container">
+            <div class="footer-icn">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="tearm.html">Tearm Of Service</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    
+</body>
+</html>

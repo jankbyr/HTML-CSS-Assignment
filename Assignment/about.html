@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a game key selling website">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>About Us</title>
     <script src="https://kit.fontawesome.com/22921fbb63.js" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section class="navbar">    
+        <section class="navbar">
+            <a href="checkout.html" class="icn"><i class="fas fa-shopping-cart"></i></a>
             <input type="checkbox" id="menu">
             <label for="menu" class="hamburger-icon"><i class="fas fa-bars"></i></label>
             <nav class="checkbox">                    
-                <a href="index.html">Home</a>
-                <a class="active" href="about.html">About us</a>
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About us</a>
                 <a href="contact.html">Contact us</a>
-                <a href="checkout.html" class="icn"><i class="fas fa-shopping-cart"></i></a>
-                <a href="#" class="icn"><i class="fas fa-user-circle"></i></a>
                 <div class="search">
                     <form action="#">
                         <input type="text" placeholder="Search.." name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
+                    </form> 
                 </div>
             </nav>
         </section> 
@@ -47,22 +47,24 @@
         </section>
     </main>
     <footer>
-        <nav class="footer-container">
-            <div class="footer-icn">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-twitch"></i></a>
-            </div>
-            <div class="footernav">
-                <ul>
-                    <li><a href="contact.html">Contact us</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="tearm.html">Tearm Of Service</a></li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
+        <section class="footer-gridcontainer">   
+            <nav class="footer-container">
+                <div class="footer-icn">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                </div>
+                <div class="footernav">
+                    <ul>
+                        <li id="contactus-link"><a href="contact.html">Contact us</a></li>
+                        <li id="aboutus-link"><a href="about.html">About us</a></li>
+                        <li id="tearm-link"><a href="#">Tearm Of Service</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section> 
+        </footer>
     
 </body>
 </html>

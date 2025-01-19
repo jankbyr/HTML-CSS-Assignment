@@ -93,7 +93,7 @@ footer {
 .navbar {
     grid-template-columns: 5fr 1fr;
     display: grid;
-    
+    position: fixed;
     color: #fff;
     overflow: hidden;
     width: 100%;

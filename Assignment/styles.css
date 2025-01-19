@@ -883,7 +883,7 @@ hr {
     border-radius: 0 0 15px 15px;
     max-width: 450px;
     height: 65px;
-    margin-bottom: 20px;
+    margin: 10px 0 35px 0;
 }
 
 .cart-checkout {

@@ -93,12 +93,14 @@ footer {
 .navbar {
     grid-template-columns: 5fr 1fr;
     display: grid;
-    position: fixed;
+    position: sticky;
+    top: 0;
     color: #fff;
     overflow: hidden;
     width: 100%;
     z-index: 1000;
     background-color: #051c36;
+    
 }
 
 .hamburger-icon {
